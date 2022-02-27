@@ -12,7 +12,7 @@ int main()
     }
     else if(num1<num2)
     {
-        printf("Large number = %d", num2);
+        printf("Large number = %d", num210);
     }
     else
     {
