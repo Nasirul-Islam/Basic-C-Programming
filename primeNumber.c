@@ -7,6 +7,7 @@ int main()
     printf("Enter any Positive number: ");
     scanf("%d", &num);
 
+    //for(i=1; i<=num; i++)
     for(i=2; i<num; i++)
     {
         if(num%i==0)
@@ -15,6 +16,7 @@ int main()
             break;
         }
     }
+    //if(count==2)
     if(count==0)
     {
         printf("%d is a Prime Number\n", num);
