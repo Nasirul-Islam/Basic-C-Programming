@@ -6,7 +6,7 @@ int main()
 }
 
 // avg function definition
-int avg(int numbers[5];)
+int avg()
 {
     int i;
     float nums[5], average, sum=0;
