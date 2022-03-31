@@ -2,9 +2,9 @@
 
 int main()
 {
-    int i,a2[5], a1[5]= {12, 21, 43, 45, 56};
-    int length = sizeof(a2)/sizeof(a2[0]);
-    // printf("%d", length);
+    int i,a2[5], a1[]= {12, 21, 43, 45, 56};
+    int length = sizeof(a1)/sizeof(a1[0]);
+    printf("length of array = %d\n", length);
     // array 1
     printf("array 1 = ");
     for(i=0; i<length; i++)
